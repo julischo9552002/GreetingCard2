@@ -34,6 +34,12 @@
   <PropertyGroup>
     <ApplicationIcon>cancericon1.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>GreetingCard2.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -98,9 +104,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Diamond_Sound_Effect.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\if_Cancerastro_astrology_signs_zodiac_805362.ico" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\cancericon.ico" />
