@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>cancericon1.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -89,6 +92,22 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Twinkling_Stars_Sound_Effect.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diamond_Sound_Effect.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Cancerastro_astrology_signs_zodiac_805362.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancericon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cancericon1.ico" />
+    <Content Include="if_Cancerastro_astrology_signs_zodiac_805362.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

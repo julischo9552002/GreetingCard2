@@ -71,12 +71,30 @@ namespace GreetingCard2.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Diamond_Sound_Effect {
+            get {
+                return ResourceManager.GetStream("Diamond_Sound_Effect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap transparent {
             get {
                 object obj = ResourceManager.GetObject("transparent", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Twinkling_Stars_Sound_Effect {
+            get {
+                return ResourceManager.GetStream("Twinkling_Stars_Sound_Effect", resourceCulture);
             }
         }
     }
