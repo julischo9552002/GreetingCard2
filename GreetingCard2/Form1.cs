@@ -11,7 +11,7 @@ using System.Windows.Forms;
 using System.Media;
 
 namespace GreetingCard2
-    // by Julia Scholz
+    // by Julia Scholz, Sep 27th, 2017
     // a greeting card with the cancer constellation
 {
     public partial class Form1 : Form

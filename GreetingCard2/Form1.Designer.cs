@@ -67,7 +67,7 @@
             this.labelowner.Name = "labelowner";
             this.labelowner.Size = new System.Drawing.Size(148, 99);
             this.labelowner.TabIndex = 2;
-            this.labelowner.Text = "J. Scholz  Sep 21st, 2017";
+            this.labelowner.Text = "J. Scholz  Sep 27th, 2017";
             this.labelowner.Click += new System.EventHandler(this.pictureboxcancer_Click);
             // 
             // Form1
